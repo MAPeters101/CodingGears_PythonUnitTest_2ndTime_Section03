@@ -25,6 +25,10 @@ class TestsCalculatorAddFunctionality(unittest.TestCase):
         result = calc.calc_add()
         self.assertEqual(result, 31.52)
 
+    @unittest.skip("Waiting on BA...")
+    def test_add_two_positive_decimal_numbers_with_ten_decimal_places(self):
+        pass
+
 
 
 
