@@ -13,3 +13,5 @@ class TestsCalculator(unittest.TestCase):
         result = calc1.calc_add()
         self.assertEqual(result, -20)
 
+
+
