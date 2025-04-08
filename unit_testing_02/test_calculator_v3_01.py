@@ -1,7 +1,7 @@
 # Topics: One Class
 
 import unittest
-from calculator_v3 import Calculator
+from Unit_testing_02.calculator_v3 import Calculator
 
 
 class TestsCalculatorBase(unittest.TestCase):
